@@ -1,5 +1,5 @@
 import requests
-from .secret import username, password
+from secret import username, password
 aruba_url = 'https://securelogin.arubanetworks.com/upload/custom/cp-UMASS/login.html?cmd=login'
 post_url_postfix = '/cgi-bin/login'
 test_url = 'http://kang.wogloms.com/ok.html'
